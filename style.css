@@ -1,0 +1,10 @@
+body{
+    background: lightseagreen;
+}
+
+#drawingCanvas{
+    background: lightyellow;
+}
+.color img{
+    height: 70px;
+}

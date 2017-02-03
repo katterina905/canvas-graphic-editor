@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+
+
+        <div class="color">
+            <p>цвет</p>
+            <img src="img/marker_red.png" id="color_red" alt="Красная кисть" onclick="changeColor('#EA4335')">
+            <img src="img/marker_blue.png" id="color_blue" alt="Синяя кисть" onclick="changeColor('#4285F4')">
+            <img src="img/marker_green.png" id="color_green" alt="Зеленая кисть" onclick="changeColor('#34A853')">
+
+        </div>
+
+
+        <div>
+            <p>Толщина</p>
+            <img src="img/1.png" id="changeThickness_1" onclick="changeThickness(1)">
+            <img src="img/2.png" id="changeThickness_5" onclick="changeThickness(5)">
+            <img src="img/3.png"  id="changeThickness_10" onclick="changeThickness(10)">
+        </div>
+
+        <canvas id="drawingCanvas" width="800" height="580"></canvas>
+
+        <button>SAVE</button>
+        <button>CLEAR</button>
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
